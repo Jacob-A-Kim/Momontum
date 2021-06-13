@@ -16,19 +16,27 @@ span {
 }
 .time-container,
 .to-do-container,
-.weather-container {
+.weather-container,
+.userName-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.time-container,
+.weather-container,
+.userName-container {
+  justify-content: center;
+}
 .time-container {
-  height: 35%;
+  height: 30%;
   justify-content: center;
   font-size: xx-large;
 }
-
+.userName-container {
+  height: 10%;
+}
 .to-do-container {
-  height: 55%;
+  height: 50%;
 }
 .weather-container {
   height: 10%;
@@ -40,4 +48,10 @@ span {
   top: 0;
   left: 0;
   z-index: -1;
+}
+.disappear {
+  display: none;
+}
+.appear {
+  display: block;
 }
