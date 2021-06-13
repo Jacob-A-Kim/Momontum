@@ -1,0 +1,43 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+h1,
+h3,
+li,
+ul,
+span {
+  text-shadow: 0 0 3px whitesmoke;
+}
+.time-container,
+.to-do-container,
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-container {
+  height: 35%;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.to-do-container {
+  height: 55%;
+}
+.weather-container {
+  height: 10%;
+}
+.bgImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

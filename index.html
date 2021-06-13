@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momonton</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="time-container">
+      <h1 class="time-now"></h1>
+    </div>
+    <div class="weather-container">
+      <span class="js-weather"></span>
+    </div>
+    <div class="to-do-container">
+      <div class="input-container">
+        <form method="get" class="js-toDoForm">
+          <input type="text" class="js-toDoInput" placeholder="Add your task" />
+          <input type="submit" value="Make things done!" />
+        </form>
+      </div>
+      <div class="pending-container">
+        <h3 class="title-pending">Pending</h3>
+        <ul class="js-toDoList"></ul>
+      </div>
+      <div class="finished-container">
+        <h3 class="title-finished">Finished</h3>
+        <ul class="js-finishedList"></ul>
+      </div>
+    </div>
+    <script src="./src/toDo.js"></script>
+    <script src="./src/clock.js"></script>
+    <script src="./src/bg.js"></script>
+    <script src="./src/weather.js"></script>
+  </body>
+</html>
